@@ -1,0 +1,70 @@
+
+
+
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+ #title {
+    background-color: pink;
+    text-align: center;
+    border-style: double;
+}
+ 
+.game {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+
+.container {
+    color: white;
+    text-align: center;
+    margin-left: 50px;
+    width: 800px;
+    height: 600px;
+    background-color: black;
+   
+    
+   
+}
+
+.column {
+    
+    width: 400px;
+    height: 600px;
+    background-color:pink;
+    text-align:center;
+}
+ 
+
+  #bar  {
+    
+    width: 120px;
+    height: 40px;
+    background-color: pink;
+    border-style: double;
+    color: black; 
+    position:relative ;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+}
+
+
+.column h2 {
+    text-decoration: underline;
+}
+
+button {
+    margin-top: 20px;
+    font-size: 18px;
+    padding: 10px 20px;
+}
+
+p {
+    font-size: 16px;
+}

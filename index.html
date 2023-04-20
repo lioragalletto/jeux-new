@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./css/game.css">
+    <title>Title</title>
+</head>
+<body>
+
+<!--<div id="game">-->
+
+<!--</div>-->
+
+   <audio id="backgroundMusic" autoplay loop>
+  <source src="jeux.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+   </audio>
+   
+    <h1 id="title">Catch me if you can !</h1>
+   <div class="game">
+
+
+    <div class="container">
+        <div id="bar"> Click  Me !</div>
+    </div>
+    
+
+       <div class="column">
+        <h2> Game Informations </h2>
+        <p>Score: <span id="score">0</span></p>
+        <p>Point to Next Level :<span id="pointonextlevel">10</span></p>
+        <p>Level: <span id="level">1</span></p>
+        <p>Missed Clicks: <span id="missedclicks">0</span></p>
+        <p>Timer: <span id="timer">0</span></p>
+        
+
+        <h2> High Score </h2>
+        <p id="highScore"></p>
+        
+    
+    </div>
+</div>
+
+
+</body>
+<script src="./js/game.js" defer></script>
+
+
+</html>
